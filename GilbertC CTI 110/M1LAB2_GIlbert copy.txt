@@ -1,0 +1,59 @@
+# M1LAB2
+# Christine Gilbert
+# 8/20/2026
+# The Sandwich Lab
+
+## Steps to make a sandwich
+
+## Assumptions
+
+Standing outside of the kitchen
+Bread is on the table
+Bread is in a bag with a twist tie
+Peanut butter is in the cabinet above the stove
+Plates are in the cabinet next to the fridge above the countertop
+Cutlery is in the drawer nearest the fridge
+There is a sink
+There is a fridge next to the countertop and the cabinets
+There is a kitchen drawer next to the fridge
+There is a stove
+There are cabinets above the stove
+
+## Steps
+1. Go to the kitchen
+2. Open the cabinet next to the fridge
+3. Grab a flat plate
+4. Put the flat plate down onto the countertop by the fridge
+5. Close the cabinet next to the fridge
+6. Go to the table
+7. Take the bread package off the table
+8. Unscrew the tie on the bread package
+9. Take two slices of bread out of the package
+10. Put the slices of bread onto the flat plate on the countertop by the fridge
+11. Re-twist the bread tie onto the bread package
+12. Put the package of bread onto the table
+13. Open the kitchen drawer by the fridge
+14. Take out a butterknife
+15. Put the butterknife down onto the countertop by the flat plate with the bread
+16. Close the kitchen drawer by the fridge
+17. Open the cabinet above the stove
+18. Take out the peanut butter jar
+19. Close the cabinet above the stove
+20. Unscrew the peanut butter jar lid
+21. Put the peanut butter jar lid onto the countertop by the flat plate
+22. Pick up the butterknife from the countertop by the flat plate with the bread
+23. Scoop out enough peanut butter to cover one face of the slice of bread on the flat plate with the butterknife
+24. Pick up one of the slices of bread from the flat plate
+25. Spread the peanut butter onto one of the slices of bread on the flat plate on the countertop without picking up the bread
+26. Put the piece of bread with peanut butter onto the flat plate, making sure the face with the peanut butter is not facing the flat plate
+27. Put the knife into the sink
+28. Take the slice of bread without peanut butter and put it ontop of the slice of bread with peanut butter on it, making sure the slice faces line up
+29. Put the sandwich onto the flat plate ontop of the countertop
+30. Pick up the peanut butter jar lid from the countertop by the flat plate
+31. Screw the peanut butter jar lid back onto thr peanut butter jar
+32. Open the cabinet above the stove
+33. Put the peanut butter jar back into its original place
+34. Close the cabinet above the stove
+
+## Down When
+- Both slices of bread have had their faces connected with one of the faces that are touching being covered in peanut butter while sitting on the plate, the knife is in the sink and the peanut butter is but away
