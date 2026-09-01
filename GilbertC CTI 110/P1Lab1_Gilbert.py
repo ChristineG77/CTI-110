@@ -5,10 +5,8 @@
 # Our first python program
 
 # This is how you make comments in python
-# First, say hello to the user
+# Ask for a person's first and last name, the greet them and welcome them to class
 print("Hello!")
-num = int
-num = 7
-num2 = int
-num2 = 3
-
+fname = input("Please enter your name here: ")
+lname = input("Please enter your last name here: ")
+print("hello",fname,lname,"its nice to meet you! Welcome to CTI 110!")
