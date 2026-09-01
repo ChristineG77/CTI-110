@@ -9,4 +9,4 @@
 print("Hello!")
 fname = input("Please enter your name here: ")
 lname = input("Please enter your last name here: ")
-print("hello",fname,lname,"its nice to meet you! Welcome to CTI 110!")
+print("hello",fname,lname,"its nice to meet you! Welcome to CTI 110!") 
