@@ -1,7 +1,7 @@
 #Christine Gilbert
 #CTI 110
 #9/3/2026
-
+#Product sales
 #Fictional Store --  pick three things
 # product_name, product_count,product_cost
 
