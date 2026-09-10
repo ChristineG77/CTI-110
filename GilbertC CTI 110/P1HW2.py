@@ -14,11 +14,11 @@ Leftovers = float(Budget - Total) #now for the output
 #make it look nice, use print() for spaces between lines
 print("----Travel Expenses----")
 print()
-print("Destination: ",Locale)
-print("Starting budget: $",Budget)
-print("Gas: $",Gas)
-print("Accommodations: $",Room)
-print("Food: $",Board)
+print(f"Destination: {Locale}")
+print(f"Starting budget: ${Budget:.2f}")
+print(f"Gas: ${Gas:.2f}")
+print(f"Accommodations: ${Room:.2f}")
+print(f"Food: ${Board:.2f}")
 print()
-print("At the end of your vacation at",Locale,",you will have $",Leftovers,"left in your budget.")
-#figure out way to get the $ closer to the numbers
+print(f"At the end of your vacation at {Locale},you will have ${Leftovers:.2f} left in your budget.")
+#figure out way to get the $ closer to the numbers, Answer: use f{}
