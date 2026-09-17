@@ -1,31 +1,14 @@
-# Christine Gilbert
-# CTI 110
-# 9/8/2026
-# Calculating someone's vacation expenses
+#Christine Gilbert
+#CTI-110
+#9/17/2026
 
-#Remember to keep all the numbers together
-Budget = float(input("What is your budget for this trip: "))
-Locale = input("Please enter your vacation destination: ")
-Gas = float(input("How much will you be spending on gas: "))
-Board = float(input("How much will you be spending on food: "))
-Room = float(input("How much will you be spending on your accommodations: "))
-Total = float(Gas + Board + Room) #error due to accidentally adding locale
-Leftovers = float(Budget - Total) #now for the output
-#print("---------------Travel Expenses----------------")
-#print(f"Destination: {Locale}")
-#print(f"Starting budget: ${Budget:.2f}")
-#print(f"Gas: ${Gas:.2f}")
-#print(f"Accommodations: ${Room:.2f}")
-#print(f"Food: ${Board:.2f}")
-#print("----------------------------------------------")
-#print(f"At the end of your vacation at {Locale},you will have ${Leftovers:.2f} left in your budget.")
-#figure out way to get the $ closer to the numbers, Answer: use f{}
-#make it look nice, use print() for spaces between lines
-print("---------------Travel Expenses----------------")
-print(f'{"Destination:":<30} {Locale}')
-print(f'{"Starting budget:":<30} ${Budget:.2f}')
-print(f'{"Gas:":<30} ${Gas:.2f}')
-print(f'{"Accommodations:" :<30} ${Room:.2f}')
-print(f'{"Food:":<30} ${Board:.2f}')
-print("----------------------------------------------")
-print(f"At the end of your vacation at {Locale},you will have ${Leftovers:.2f} left in your budget.")
+#make a list of input grades for many modules then find the min, max and average
+#declare variables for all grades
+M1 = float(input("Grade for module 1: "))
+M2 = float(input("Grade for module 2: "))
+M3 = float(input("Grade for module 3: "))
+M4 = float(input("Grade for module 4: "))
+M5 = float(input("Grade for module 5: "))
+M6 = float(input("Grade for module 6: "))
+grades = {M1,M2,M3,M4,M5,M6}
+print(f'{"Lowest Grade":<20}{min(grades)}')
