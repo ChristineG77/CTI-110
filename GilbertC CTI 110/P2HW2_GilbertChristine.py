@@ -11,4 +11,5 @@ M4 = float(input("Grade for module 4: "))
 M5 = float(input("Grade for module 5: "))
 M6 = float(input("Grade for module 6: "))
 grades = {M1,M2,M3,M4,M5,M6}
-print(f'{"Lowest Grade":<20}{min(grades)}')
+print(f'{"Lowest Grade:":<20}{min(grades)}')
+print(f'{"Highest Grade:":<20}{max(grades)}')
