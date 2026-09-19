@@ -7,7 +7,7 @@
 #Declare the variables and dictonary vaules
 Cars = {'Camero':18.21, 'Prius':52.36, 'Model S':110, 'Silverado':26}
 #get the car input from user
-keycar = input("Please choose a car to find its gas value 'Camero, Prius, Model S or Silverado': ")
+keycar = input("Please choose a car to find its miles per gallon value for a 'Camero, Prius, Model S or Silverado': ")
 print("The ",keycar," gets ",(Cars[keycar]),"mpg")
 #ask how many miles they plan to drive the car for and calculate how many gallons it would be to drive that far
 miles = float(input(f"How many miles will you drive the {keycar}? "))
