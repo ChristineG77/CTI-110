@@ -34,6 +34,22 @@ def door_3():
     print("A briefcase sits on a stool.")
     print("You win: the briefcase.")
     # TO DO (Part C): start the Buzzer Round from here.
+    print("Bonus Buzzer Round!!")
+    max_time = 60
+    time_used = int(input("How many seconds out of 60 do you need to get the answer? "))
+    base_winnings = 0
+    bonus = 0
+    time_left = max_time - time_used
+    #if you have more than 40 seconds, payout is 1.5, under 40 payout is 1.0
+    base_winnings = time_left * 10
+    if time_used > 40:
+        bonus = base_winnings * 0.5
+    else:
+        bonus = 0
+    print(f"{'Prize won':<20}{'Briefcase':<10}")
+    print(f"{'Time Used:':<20}{time_left:<10}")
+    print(f"{'Base Prize':<20}${base_winnings:<10.2f}")
+    print(f"{'Bonus awarded:':<20}${bonus:<10.2f}")
 
 
 def start():
@@ -45,7 +61,7 @@ def start():
     if choice == "1":
         door_1()
     elif choice == "2":
-        door2()
+        door_2()
     elif choice == "3":
         door_3()
     else:
