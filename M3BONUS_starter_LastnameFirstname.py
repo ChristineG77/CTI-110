@@ -36,18 +36,25 @@ def door_3():
     # TO DO (Part C): start the Buzzer Round from here.
     print("Bonus Buzzer Round!!")
     max_time = 60
-    time_used = int(input("How many seconds out of 60 do you need to get the answer? "))
+    print("Buzz in when you know the answer!")
+    print("$10 dollar per second left when you buzz in.")
+    print("1.5 Multiplier if you have more than 40 seconds left.")
+    time_used = float(input("How many seconds do you need to get the right answer? "))
     base_winnings = 0
     bonus = 0
     time_left = max_time - time_used
     #if you have more than 40 seconds, payout is 1.5, under 40 payout is 1.0
     base_winnings = time_left * 10
-    if time_used > 40:
-        bonus = base_winnings * 0.5
+    if time_left > 40:
+        base_winnings = 40 * 10 #base caps at 40
+        bonus_time = time_left - 40 # we already paid for the 40 seconds
+        bonus = bonus_time * 15 #bonus pays time and a half or $15
     else:
+        base_winnings = 40*10
+        bonus_time = 0
         bonus = 0
     print(f"{'Prize won':<20}{'Briefcase':<10}")
-    print(f"{'Time Used:':<20}{time_left:<10}")
+    print(f"{'Time Left:':<20}{time_left:<10}seconds")
     print(f"{'Base Prize':<20}${base_winnings:<10.2f}")
     print(f"{'Bonus awarded:':<20}${bonus:<10.2f}")
 
