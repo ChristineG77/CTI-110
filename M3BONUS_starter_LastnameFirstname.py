@@ -21,7 +21,7 @@ def door_1():
     print("You win: one goat.")
 
 
-def door_2()
+def door_2():
     print()
     print("Door 2 swings open.")
     print("Lights flash. A small red car rolls out.")
@@ -31,7 +31,7 @@ def door_2()
 def door_3():
     print()
     print("Door 3 swings open.")
-     print("A briefcase sits on a stool.")
+    print("A briefcase sits on a stool.")
     print("You win: the briefcase.")
     # TO DO (Part C): start the Buzzer Round from here.
 
@@ -42,10 +42,10 @@ def start():
     print("=" * 40)
     choice = input("Pick a door (1, 2, or 3): ")
 
-    if choice == 1:
+    if choice == "1":
         door_1()
     elif choice == "2":
-        Door2()
+        door2()
     elif choice == "3":
         door_3()
     else:
