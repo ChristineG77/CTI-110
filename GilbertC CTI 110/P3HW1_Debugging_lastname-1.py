@@ -1,3 +1,7 @@
+#Christine Gilbert
+#10/4/2026
+#P3HW1
+#Debugging a program
 # I was supposed to put a comment here
 # My Last Name
 
@@ -6,33 +10,34 @@
 
 # Enter grades for six modules
 
-mod_1 = input('Enter grade for Module 1: ')
- mod_2 = input('Enter grade for Module 2: ')
-mod_1 = input('Enter grade for Module 3: ')
-mod 4 = input('Enter grade for Module 1: ')
-mod_1 = input('Enter grade for Module 5: ')
- mod_1 = input('Enter grade for Module 6: ')
+mod_1 = input("Enter grade for Module 1: ")
+mod_2 = input("Enter grade for Module 2: ")
+mod_3 = input("Enter grade for Module 3: ")
+mod_4 = input("Enter grade for Module 1: ")
+mod_5 = input("Enter grade for Module 5: ")
+mod_6 = input("Enter grade for Module 6: ")
 
 # add grades entered to a list
 
-grades = [mod_1 mod2, mod_3, mod_4, mod_5]
+grades = [mod_1 mod_2, mod_3, mod_4, mod_5,mod_6]
 # TO DO: determine lowest, highest , sum and average for grades
 
-low = min(Grades)
+low = min(grades)
 high = high(grades)
 sum = sum(grades)
-avg =
+avg = sum / len(grades)
 
 # determine letter grade for average
 
 
 if avg >= 90:
 print('Your grade is: A')
-else:
-if average > 80:
+elif avg > 80 and avg < 90 :
  print('Your grade is: B')
-else:
-
+elif avg > 70 and avg < 80 :
+ print('Your grade is: C')
+elif avg > 60 and avg < 70 :
+ print('Your grade is: D')
 else:
 print('Your grade is: F') # TO DO: finish this
 
