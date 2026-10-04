@@ -10,24 +10,7 @@
 
 # Enter grades for six modules
 
-<<<<<<< HEAD
-mod_1 = input("Enter grade for Module 1: ")
-mod_2 = input("Enter grade for Module 2: ")
-mod_3 = input("Enter grade for Module 3: ")
-mod_4 = input("Enter grade for Module 1: ")
-mod_5 = input("Enter grade for Module 5: ")
-mod_6 = input("Enter grade for Module 6: ")
 
-# add grades entered to a list
-
-grades = [mod_1 mod_2, mod_3, mod_4, mod_5,mod_6]
-# TO DO: determine lowest, highest , sum and average for grades
-
-low = min(grades)
-high = high(grades)
-sum = sum(grades)
-avg = sum / len(grades)
-=======
 mod_1 = int(input("Enter grade for Module 1: "))
 mod_2 = int(input("Enter grade for Module 2: "))
 mod_3 = int(input("Enter grade for Module 3: "))
@@ -44,7 +27,7 @@ low = min(grades)
 high = max(grades)
 Sum = sum(grades)
 avg = Sum / len(grades)
->>>>>>> a4a8020 (debugging)
+
 
 # determine letter grade for average
 print("-"*12,"Results","-"*12)
@@ -55,8 +38,7 @@ print("Average: ", avg)
 print("-"*31)
 
 if avg >= 90:
-<<<<<<< HEAD
-print('Your grade is: A')
+ print('Your grade is: A')
 elif avg > 80 and avg < 90 :
  print('Your grade is: B')
 elif avg > 70 and avg < 80 :
@@ -64,19 +46,8 @@ elif avg > 70 and avg < 80 :
 elif avg > 60 and avg < 70 :
  print('Your grade is: D')
 else:
-print('Your grade is: F') # TO DO: finish this
+ print('Your grade is: F') # TO DO: finish this
 
-=======
-    print('Your grade is: A')
-elif avg > 80 and avg < 90 :
-    print('Your grade is: B')
-elif avg > 70 and avg < 80 :
-    print('Your grade is: C')
-elif avg > 60 and avg < 70 :
-    print('Your grade is: D')
-else:
-    print('Your grade is: F') # TO DO: finish this
->>>>>>> a4a8020 (debugging)
 
 
 
