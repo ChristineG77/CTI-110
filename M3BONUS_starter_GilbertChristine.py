@@ -1,5 +1,6 @@
-# Your Name
-# Date
+# Christine Gilbert
+# 9/27/2026
+#CTI-110
 # M3BONUS - Let's Make a Deal
 # A short text adventure. The player picks a door and wins a prize.
 
@@ -58,12 +59,31 @@ def door_3():
     print(f"{'Base Prize':<20}${base_winnings:<10.2f}")
     print(f"{'Bonus awarded:':<20}${bonus:<10.2f}")
 
+def door_4():
+    print()
+    print("Door 4 swings open.")
+    print("A meow rises from a basket.")
+    print("You win: a cat!")
 
+def door_5():
+    print()
+    print("Door 5 swings open.")
+    print("An easel sits, surrounded by three bags")
+    bag = input("Please pick a bag, red, green or blue: ")
+    if bag == "red":
+        print("You win: An easel and paints!")
+    elif bag == "blue":
+        print("You win: An easel and oil pastels")
+    elif bag == "green":
+        print("You win: An easel and colored pencils")
+    else:
+        print("You didn't pick a bag!")
+        
 def start():
     print("=" * 40)
     print("     WELCOME TO LET'S MAKE A DEAL")
     print("=" * 40)
-    choice = input("Pick a door (1, 2, or 3): ")
+    choice = input("Pick a door (1, 2, 3, 4, or 5): ")
 
     if choice == "1":
         door_1()
@@ -71,6 +91,10 @@ def start():
         door_2()
     elif choice == "3":
         door_3()
+    elif choice == "4":
+        door_4()
+    elif choice == "5":
+        door_5()
     else:
         print("The host frowns. That is not a door.")
 
