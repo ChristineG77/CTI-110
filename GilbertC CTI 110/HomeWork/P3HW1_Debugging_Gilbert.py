@@ -34,7 +34,7 @@ print("-"*12,"Results","-"*12)
 print("Lowest Grade: ", low)
 print("Highest Grade: ", high)
 print("Sum of Grades: ", Sum)
-print("Average: ", avg)
+print(f"Average: {avg:.2f}")
 print("-"*31)
 
 if avg >= 90:
