@@ -16,5 +16,20 @@ for mult in range (1,13):
 #set up variables ask the user for their chosen integer (0-12) validate loop
 #Start the main loop
 again = "yes"
-while again == "yes"
-    
+while again == "yes":
+    multiplier = int(input("Enter a number 0-12: "))
+    #print the times table header, print the times table loop
+    while multiplier < 0 or multiplier > 12:
+        print("That is not a valid number")
+        multiplier = int(input("Enter a number 0-12: "))
+
+    print("Multiplication Table")
+    print("-"*20)
+
+    for number in range (1,13):
+        print(f"{multiplier} * {number} = {number*multiplier}")
+        #print(number,"\t",number*multiplier)
+    again = input("Would you like to run again? (yes/no): ")
+
+print()
+print("Exiting Program...")
