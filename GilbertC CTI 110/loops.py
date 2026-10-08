@@ -1,6 +1,7 @@
-next = 8
-for i in range (8):
-    x = int(4)
+next = 6
+x = int(4)
+for i in range (next):
+    
     print(x)
-    x = int(x - 1)
-    next = (next - 1)
+    x = x-1
+    
