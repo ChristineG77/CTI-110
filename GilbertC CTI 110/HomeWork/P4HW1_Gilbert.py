@@ -10,7 +10,8 @@
 ques = int(input("How many scores do you want to enter? "))
 score = []
 for num in range(ques):
-    scores = input("Enter score",num,": ")
+    print("Enter score",num+1,": ")
+    scores = int(input())
     if scores < 0 or scores > 100:
         print("Invalid score. Please enter a score between 0 and 100.")
     else:
