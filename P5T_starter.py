@@ -49,5 +49,18 @@ def main():
     hp_missing = max_hp - hp
     print(f"You are missing {hp_missing} HP.")
     drink_potions(hp_missing)
+    
+#get random gold
+
+def get_random_gold():
+    #retuns a float -- how much fold was found
+    #round is how you round. the 2 at the end is how many decimal places you round to
+    gold = round(random.uniform(0.01,100.00),2)
+    return gold
+
+gold  = get_random_gold()
+print(f"You find {gold:.2f} gold in the chest")
+
 main()
+
 #drink_potions(20)
