@@ -9,8 +9,19 @@
 # Run it now (it works). In P5T you turn it into a function.
 
 #Part one - add main
-def main():
-    hp_missing = int(input("Enter HP missing: "))
+# Christine Gilbert
+# 10/27/2026
+# P5T: The Potion Pouch
+# Brief description of program
+
+# This is the potion ritual from The Changekeeper (Potions tab).
+# It is the same // and % pattern as your P3LAB, with two potions:
+#   Large Potion heals 25 HP. Small Potion heals 5 HP.
+# Run it now (it works). In P5T you turn it into a function.
+import random
+#Part one - add main
+def drink_potions(hp_missing):
+    #hp_missing = int(input("Enter HP missing: "))
 
     large = hp_missing // 25
     hp_missing = hp_missing % 25
@@ -28,4 +39,15 @@ def main():
 
     print("Still missing:", hp_missing, "HP")
 # start the program and call main dont indent def
+#def main():
+#    hp_missing = int(input("Enter HP missing:"))
+#    drink_potions(hp_missing)
+def main():
+    max_hp = int(input("What is your max HP? "))
+    hp = random.randint(1, max_hp)
+    print(f"A goblin hits you. You have {hp} HP left.")
+    hp_missing = max_hp - hp
+    print(f"You are missing {hp_missing} HP.")
+    drink_potions(hp_missing)
 main()
+#drink_potions(20)
