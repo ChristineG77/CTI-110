@@ -6,16 +6,20 @@
 #make a variable that asks the user how many times they want to add a score
 #loop for that makny iterations with an if statement check inside to validate
 #add the checked score to a list
-
 ques = int(input("How many scores do you want to enter? "))
+Event = bool
+Event = True
 score = []
-for num in range(ques):
-    print("Enter score",num+1,": ")
-    scores = int(input())
-    if scores < 0 or scores > 100:
-        print("Invalid score. Please enter a score between 0 and 100.")
-    else:
-        score.append(scores)
-    num += 1
+while Event == True:
+    for num in range(ques):
+        print("Enter score",num+1,": ")
+        scores = int(input())
+        if scores < 0 or scores > 100:
+            print("Invalid score. Please enter a score between 0 and 100.")
+            Event == False
+        else:
+            score.append(scores)
+        num += 1
     
+        
     
